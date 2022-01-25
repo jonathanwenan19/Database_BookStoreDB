@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.availablegenre_controller">
+   <children>
+      <AnchorPane layoutX="-4.0" prefHeight="400.0" prefWidth="159.0" style="-fx-background-color: #97CBFF;">
+         <children>
+            <Button layoutX="29.0" layoutY="174.0" mnemonicParsing="false" onAction="#returnhome" prefHeight="52.0" prefWidth="102.0" style="-fx-background-color: F1FF97;" text="Home" />
+         </children>
+      </AnchorPane>
+      <TableView fx:id="genre_table" layoutX="153.0" layoutY="66.0" prefHeight="330.0" prefWidth="440.0">
+        <columns>
+          <TableColumn fx:id="genreid_col" prefWidth="202.0" text="Genre_id" />
+          <TableColumn fx:id="genrename_col" minWidth="0.0" prefWidth="223.0" text="Genre Name" />
+        </columns>
+      </TableView>
+      <Text layoutX="304.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available Genre" wrappingWidth="137.78125">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

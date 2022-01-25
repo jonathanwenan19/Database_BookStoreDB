@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="526.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.book_apdcontroller">
+   <children>
+      <AnchorPane prefHeight="526.0" prefWidth="191.0" style="-fx-background-color: F7CB14;">
+         <children>
+            <Button layoutX="29.0" layoutY="198.0" mnemonicParsing="false" onAction="#returnhome" prefHeight="60.0" prefWidth="125.0" text="Home" />
+         </children>
+      </AnchorPane>
+      <TableView fx:id="APD_table" layoutX="194.0" layoutY="66.0" prefHeight="460.0" prefWidth="558.0">
+        <columns>
+          <TableColumn fx:id="title_col4" prefWidth="150.0" text="Book Title" />
+          <TableColumn minWidth="0.0" prefWidth="0.0" text="C2" />
+            <TableColumn fx:id="author_col4" prefWidth="100.0" text="Author" />
+            <TableColumn fx:id="publisher_col" prefWidth="149.0" text="Publisher" />
+            <TableColumn fx:id="distributor_col" prefWidth="158.0" text="Distributor" />
+        </columns>
+      </TableView>
+      <Text layoutX="393.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book's APD" wrappingWidth="109.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

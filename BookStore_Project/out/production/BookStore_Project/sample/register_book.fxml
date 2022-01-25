@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="577.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.registerbook_controller">
+   <children>
+      <AnchorPane prefHeight="577.0" prefWidth="298.0" style="-fx-background-color: F297FF;">
+         <children>
+            <Text layoutX="65.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Details">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Text layoutX="84.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book ID" wrappingWidth="149.693359375">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="106.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="109.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="87.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room ID">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="72.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Page Count">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="79.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genre ID" wrappingWidth="114.1376953125">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="99.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="98.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="87.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Publisher">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="79.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Distributor">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="85.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author ID">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="72.0" layoutY="434.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Publisher ID">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="64.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Distributor ID">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="bookid_text" layoutX="316.0" layoutY="41.0" />
+      <TextField fx:id="title_text" layoutX="316.0" layoutY="76.0" />
+      <TextField fx:id="price_text" layoutX="316.0" layoutY="111.0" />
+      <TextField fx:id="roomid_text" layoutX="316.0" layoutY="146.0" />
+      <TextField fx:id="genreid_text" layoutX="316.0" layoutY="187.0" />
+      <TextField fx:id="pagecount_text" layoutX="316.0" layoutY="224.0" />
+      <TextField fx:id="stock_text" layoutX="316.0" layoutY="265.0" />
+      <Button layoutX="523.0" layoutY="11.0" mnemonicParsing="false" onAction="#register" text="Register" />
+      <TextField fx:id="author_text" layoutX="316.0" layoutY="368.0" />
+      <TextField fx:id="publisher_text" layoutX="316.0" layoutY="454.0" />
+      <TextField fx:id="distributor_text" layoutX="316.0" layoutY="537.0" />
+      <TextField fx:id="authorid_text" layoutX="316.0" layoutY="321.0" />
+      <TextField fx:id="publisherid_text" layoutX="316.0" layoutY="413.0" />
+      <TextField fx:id="distributorid_text" layoutX="318.0" layoutY="499.0" />
+   </children>
+</AnchorPane>
